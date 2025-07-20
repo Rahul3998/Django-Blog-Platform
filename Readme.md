@@ -31,8 +31,8 @@ It supports user registration, login, CRUD operations on blog posts, and a respo
 
 ```bash
 # 1. Clone the repo
-git clone https://github.com/<your-username>/<your-repo>.git
-cd <your-repo>
+git clone https://github.com/Rahul3998/Django-Blog-Platform.git
+cd Django-Blog-Platform
 
 # 2. Create virtual environment
 python -m venv venv
