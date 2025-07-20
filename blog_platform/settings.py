@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-q5)e0c0rqrc$-+x^+$$=g6w06$&n9b8t6wfri8x-%(qh)=s@(r
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['rahul3998.pythonanywhere.com']
 
 
 # Application definition
@@ -69,6 +69,8 @@ TEMPLATES = [
 ]
 
 WSGI_APPLICATION = 'blog_platform.wsgi.application'
+STATIC_ROOT = BASE_DIR / 'staticfiles'
+
 
 
 # Database
